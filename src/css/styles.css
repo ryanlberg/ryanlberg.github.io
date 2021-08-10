@@ -1,0 +1,60 @@
+.square {
+    outline: 1px solid gray;
+    display: inline-block;
+    background-color: white;
+    margin-top: -4px;
+    height: 34px;
+    width: 34px;
+  }
+  
+
+  .glyphicon {
+    height: 34px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    padding: 0px;
+    position: inherit;
+    overflow: hidden;
+    
+  }
+
+  .gridcol {
+    margin: 25px 0px 0px;
+    text-align: center;
+  }
+
+  .square-start {
+    background-color: teal;
+  }
+
+  .square-end {
+    background-color: teal;
+  }
+  
+  .square-wall {
+    background-color: slategray;
+  }
+
+  @keyframes beseen {
+    from {background-color: yellow;}
+    to {background-color: orange;}
+  }
+
+  @keyframes bepath {
+    from {background-color: orange;}
+    to {background-color: teal;}
+  }
+
+  .square-seen {
+    background-color: orange;
+    animation-name: beseen;
+    animation-duration: 1s;
+  }
+
+  .square-path {
+    background-color: teal;
+    animation-name: bepath;
+    animation-duration: 3s;
+  }
+  

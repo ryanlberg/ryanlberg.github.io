@@ -1,0 +1,40 @@
+ul {
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+li{
+    font-size:  20px;
+    display: table-cell;
+    width: 64px;
+}
+
+.start {
+    outline: 1px solid gray;
+    height:34px;
+    width:34px;
+    background-color: teal;
+}
+
+
+.end {
+    outline: 1px solid gray;
+    height:34px;
+    width:34px;
+    background-color: teal;
+}
+
+.wall {
+    outline: 1px solid gray;
+    height:34px;
+    width:34px;
+    background-color: gray;
+}
+
+.path {
+    outline: 1px solid gray;
+    height:34px;
+    width:34px;
+    background-color: teal;
+}

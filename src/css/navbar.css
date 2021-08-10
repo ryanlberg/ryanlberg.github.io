@@ -1,0 +1,25 @@
+.Banner {
+    width:100%;
+    background-color: orangered;
+    text-align: left;
+    height: 75px;
+}
+
+.navbar-brand-center {
+    text-align: center;
+    float: none;
+    font-size: 30px;
+    color: white;
+    
+}
+.block {
+    height: 100px;
+}
+
+.btn {
+    margin-left: 10px;
+}
+.center {
+    
+    text-align: middle;
+}
